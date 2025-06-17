@@ -2,17 +2,17 @@
 
 class Horse
 {
-    public function run()
+    public function run(): string
     {
         return "Бегу на четырех копытах";
     }
 
-    public function eat()
+    public function eat(): string
     {
         return "Ем траву и сено";
     }
 
-    public function jump()
+    public function jump(): string
     {
         return "Перепрыгиваю препятствие";
     }

@@ -14,7 +14,7 @@ class CentaurTest extends TestCase
         $this->human = new Human();
         $this->horse = new Horse();
     }
-    public function testHumanActions()
+    public function testHumanActions(): void
     {
     
         $this->assertEquals("Хожу я тоже на четырех ногах", $this->centaur->walk());
@@ -25,7 +25,7 @@ class CentaurTest extends TestCase
         $this->assertNotEquals($this->centaur->walk(), $this->human->walk());
     }
     
-    public function testHorseActions()
+    public function testHorseActions(): void
     {
         $this->assertEquals("Бегу на четырех копытах", $this->centaur->run());
         $this->assertEquals("Предпочитаю человеческую еду", $this->centaur->eat());

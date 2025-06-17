@@ -12,32 +12,32 @@ class Centaur
         $this->horse = new Horse();
     }
 
-    public function walk()
+    public function walk(): string
     {
         return "Хожу я тоже на четырех ногах";
     }
 
-    public function talk()
+    public function talk(): string
     {
         return $this->human->talk();
     }
 
-    public function think()
+    public function think(): string
     {
         return $this->human->think();
     }
     
-    public function run()
+    public function run(): string
     {
         return $this->horse->run();
     }
 
-    public function eat()
+    public function eat(): string
     {
         return "Предпочитаю человеческую еду";
     }
 
-    public function jump()
+    public function jump(): string
     {
         return $this->horse->jump();
     }

@@ -2,17 +2,17 @@
 
 class Human
 {
-    public function walk()
+    public function walk(): string
     {
         return "Хожу на двух ногах";
     }
 
-    public function talk()
+    public function talk(): string
     {
         return "Говорю человеческим голосом";
     }
 
-    public function think()
+    public function think(): string
     {
         return "Думаю и рассуждаю";
     }
