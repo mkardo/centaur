@@ -14,7 +14,7 @@ class Centaur
 
     public function walk()
     {
-        return $this->human->walk();
+        return "Хожу я тоже на четырех ногах";
     }
 
     public function talk()
@@ -34,7 +34,7 @@ class Centaur
 
     public function eat()
     {
-        return $this->horse->eat();
+        return "Предпочитаю человеческую еду";
     }
 
     public function jump()
